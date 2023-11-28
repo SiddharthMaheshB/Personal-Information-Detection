@@ -1,0 +1,7 @@
+easyocr
+matplotlib
+opencv-python
+numpy
+flair
+streamlit
+regex
