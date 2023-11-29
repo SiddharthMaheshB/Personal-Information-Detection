@@ -4,7 +4,17 @@
 
 Personal Information in images is often overlooked, especially when posting to sites like Instagram where everyone can see the pictures you upload. People seldom check if there is any information in the background of their pictures that might leak personal information on a public site. My project tries to automate this process by checking the image for information that can be harmful if leaked in the public.
 
-## Installation and usage:
+## Requirements
+<a href="https://www.python.org/"><img src="https://imgur.com/5U1Qas4.png" width="130px" height="30px"></a><br>
+<a href="https://github.com/flairNLP/flair"><img src="https://i.imgur.com/4fOVzrO.png" width="130px" height="30px"></a><br>
+<a href="https://streamlit.io/"><img src="https://i.imgur.com/KUaORTO.png" width="130px" height="30px"></a><br>
+<a href="https://github.com/JaidedAI/EasyOCR"><img src="https://imgur.com/prDaufp.png" width="130px" height="30px"></a><br>
+<a href="https://matplotlib.org/"><img src="https://imgur.com/u5TmBrV.png" width="130px" height="30px"></a><br>
+<a href="https://opencv.org/"><img src="https://imgur.com/jEJpm7H.png" width="130px" height="30px"></a><br>
+<a href="https://numpy.org/"><img src="https://imgur.com/bQ6fhnn.png" width="130px" height="30px"></a><br>
+<a href="https://docs.python.org/3/library/re.html"><img src="https://i.imgur.com/xQ8Kvmu.png" width="130px" height="30px"></a><br>
+
+## Installation and usage
 - Clone the repository
 - Download the darknet.zip file from the releases tab, and unzip it into a folder named `darknet` to be placed in the directory of the cloned repository
 - Run `pip install -r requirements.txt` to download all necessary dependencies
