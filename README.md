@@ -16,7 +16,12 @@ Personal Information in images is often overlooked, especially when posting to s
 
 ## Installation and usage
 - Clone the repository
-- Download the darknet.zip file from the releases tab, and unzip it into a folder named `darknet` to be placed in the directory of the cloned repository
+- Install [Darknet](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make) for object detection
+- Download and unzip darknetconfig.zip from the releases tab
+- place the files from darknetconfig.zip in the following directories:
+    `./darknet/cfg/yolov4-obj.cfg`
+    `./darknet/data/obj.data`
+    `/darknet/yolov4-obj_best.weights`
 - Run `pip install -r requirements.txt` to download all necessary dependencies
 - If you have a supported GPU, download CUDA and CUDNN on your system for faster running of the detection algorithm
 - Run `streamlit run pii.py` to run the detection algorithm, and upload the picture to the website opened.
