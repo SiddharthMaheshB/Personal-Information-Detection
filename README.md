@@ -16,7 +16,7 @@ Personal Information in images is often overlooked, especially when posting to s
 
 ## Installation and usage
 - Clone the repository
-- Install [Darknet](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make) for object detection
+- Install [Darknet](https://github.com/AlexeyAB/darknet) for object detection by following the instructions [here](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 - Download and unzip darknetconfig.zip from the releases tab
 - place the files from darknetconfig.zip in the following directories:
     `./darknet/cfg/yolov4-obj.cfg`
