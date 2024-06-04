@@ -19,6 +19,7 @@ Personal Information in images is often overlooked, especially when posting to s
 - If you have a supported GPU, download CUDA and CUDNN on your system for faster running of the detection algorithm
 - Install [Darknet](https://github.com/AlexeyAB/darknet) for object detection by following the instructions [here](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 - Download and unzip [darknetconfig.zip](https://drive.google.com/file/d/1630EEyNZi72d_PfElSSMUGoYJrrY2gry/view?usp=sharing)
+- Download the weights for the [address model](https://drive.google.com/file/d/1YfmnegNXzCQ5SxgotqTHmkv2br0lkG03/view?usp=sharing) and place it in the `names/` directory
 - place the files from darknetconfig.zip in the following directories:
     `./darknet/cfg/yolov4-obj.cfg`
     `./darknet/data/obj.data`
